@@ -59,6 +59,7 @@
   
   .item-overlay a {
     margin: 1rem;
+    transition-duration: 0.6s;
   }
   
   .item-overlay a:hover {
