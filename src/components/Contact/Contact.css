@@ -1,0 +1,94 @@
+.contact {
+  max-width: 920px;
+  margin: auto;
+  margin-bottom: 12rem;
+}
+
+.contact h1 {
+  margin: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+.contact input {
+  margin: 0.5rem 0rem;
+  padding: 0.4rem 0.2rem;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+.contact label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contact textarea {
+  margin: 0.5rem 0rem;
+  padding: 0.4rem;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+.contact button {
+  width: 100%;
+  height: 38px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+  background-color: #2aa59f;
+  border: 1px solid #2aa59f;
+  border-radius: 6px;
+  cursor: Pointer;
+}
+
+.contact button:hover {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 980px) {
+  .contact {
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 12rem;
+  }
+
+  .contact h1 {
+    margin: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 8rem;
+  }
+
+  .contact h1 {
+    margin: 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .contact button {
+    font-size: 1rem;
+  }
+
+  .contact button:hover {
+    font-size: 1.1rem;
+  }
+}
