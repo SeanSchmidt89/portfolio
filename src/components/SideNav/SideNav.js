@@ -14,6 +14,10 @@ const SideNav = () => {
   const navHandler = (e) => {
     setNav(!nav);
   };
+
+  nav
+    ? (document.body.style.overflow = "hidden")
+    : (document.body.style.overflow = "auto");
   return (
     <div>
       <GiHamburgerMenu className="hamburger" onClick={navHandler} />
@@ -46,16 +50,16 @@ const SideNav = () => {
       ) : null}
       <div className="large-nav">
         <div className="large-nav-container">
-          <a href="#main" onClick={navHandler}>
+          <a href="#main">
             <AiOutlineHome size={20} />
           </a>
-          <a href="#projects" onClick={navHandler}>
+          <a href="#projects">
             <AiOutlineProject size={20} />
           </a>
-          <a href="#work" onClick={navHandler}>
+          <a href="#work">
             <GrDocumentText size={20} />
           </a>
-          <a href="#contact" onClick={navHandler}>
+          <a href="#contact">
             <AiOutlineMail size={20} />
           </a>
           <a

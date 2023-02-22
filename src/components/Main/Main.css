@@ -21,8 +21,13 @@
 
 .text-container {
   position: absolute;
-  top: 38%;
-  left: 44%;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 1.3rem;
   text-align: center;
@@ -33,7 +38,7 @@
   font-family: "dancing script";
   font-weight: 700;
   line-height: 36px;
-  margin-bottom: 15px;
+  margin-bottom: 3px;
 }
 
 .text-container p {
@@ -63,8 +68,13 @@
 @media screen and (max-width: 950px) {
   .text-container {
     position: absolute;
-    top: 38%;
-    left: 39%;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-size: 1.3rem;
     text-align: center;
@@ -75,7 +85,7 @@
     font-family: "dancing script";
     font-weight: 700;
     line-height: 36px;
-    margin-bottom: 15px;
+    margin-bottom: 3px;
   }
 
   .text-container p {
@@ -84,21 +94,25 @@
 }
 
 @media screen and (max-width: 650px) {
-  .text-container {
-    position: absolute;
-    top: 38%;
-    left: 35%;
-    color: white;
-    font-size: 1.3rem;
-    text-align: center;
+  .text-container h1 {
+    border-bottom: 1.5px solid #99ddda;
+    font-family: "dancing script";
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 3px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .text-container {
     position: absolute;
-    top: 38%;
-    left: 32%;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-size: 1.1rem;
     text-align: center;
@@ -109,16 +123,10 @@
     font-family: "dancing script";
     font-weight: 700;
     line-height: 36px;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
   }
 
   .text-container p {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .text-container {
-    left: 28%;
+    font-size: 0.9rem;
   }
 }
