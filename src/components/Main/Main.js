@@ -12,6 +12,7 @@ const Main = () => {
         <h1>Sean Schmidt</h1>
         <p>Frontend Developer</p>
         <p>Navy Veteran</p>
+
         <div className="socials">
           <a href="https://www.linkedin.com/in/sean-schmidt-018459239/">
             <AiFillLinkedin size={22} />
@@ -19,6 +20,10 @@ const Main = () => {
           <a href="https://github.com/SeanSchmidt89">
             <AiFillGithub size={22} />
           </a>
+          <div className="name-top" />
+          <div className="name-bottom" />
+          <div className="name-left" />
+          <div className="name-right" />
         </div>
       </div>
     </div>

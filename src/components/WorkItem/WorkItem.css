@@ -14,7 +14,7 @@
   }
   
   .item-info .year {
-    padding: 0.1rem 0.5rem 0.2rem 0.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
     color: white;
     background-color: rgb(0, 0, 110);
     border-radius: 7px;
@@ -26,13 +26,13 @@
   }
   
   .item-info .duration {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: rgba(128, 128, 128, 0.9);
   }
   
   .details {
     margin-left: 0.15rem;
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
   }
   
   .work-item .dot {
@@ -64,7 +64,7 @@
     }
     
     .item-info .year {
-      padding: 0.1rem 0.5rem 0.2rem 0.5rem;
+      padding: 0.2rem 0.5rem 0.2rem 0.5rem;
       color: white;
       background-color: rgb(0, 0, 110);
       border-radius: 7px;
@@ -76,13 +76,13 @@
     }
     
     .item-info .duration {
-      font-size: 0.95rem;
+      font-size: 1rem;
       color: rgba(128, 128, 128, 0.9);
     }
     
     .details {
       margin-left: 0.15rem;
-      margin-top: 0.5rem;
+      margin-top: 0.7rem;
     }
     
     .work-item .dot {

@@ -1,108 +1,113 @@
 .large-nav {
-    display: block;
-    position: fixed;
-    top: 40%;
-    right: 3%;
+  display: block;
+  position: fixed;
+  top: 40%;
+  right: 3%;
+  z-index: 99;
+}
+
+.large-nav a {
+  color: black;
+}
+
+.hamburger {
+  display: none;
+}
+
+.small-nav {
+  display: none;
+}
+
+.large-nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-nav-container a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0rem;
+  padding: 0.75rem 0.75rem;
+  box-shadow: 8px 6px 16px 1px rgba(91, 91, 91, 0.64);
+  background-color: white;
+  border-radius: 25px;
+  transition-duration: 0.5s;
+}
+
+.large-nav-container a:hover {
+  margin: 0.5rem 0rem;
+  padding: 0.75rem 0.75rem;
+  box-shadow: 8px 6px 16px 1px rgba(91, 91, 91, 1);
+  border-radius: 25px;
+  scale: 112%;
+  transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 700px) {
+  .large-nav {
+    display: none;
+  }
+
+  .large-nav-container {
+    display: none;
+  }
+
+  .hamburger {
+    position: absolute;
+    display: flex;
+    top: 2rem;
+    right: 2rem;
+    color: white;
+    cursor: pointer;
     z-index: 99;
   }
-  
-  .large-nav a {
-    color: black;
-  }
-  
-  .hamburger {
-    display: none;
-  }
-  
+
   .small-nav {
-    display: none;
-  }
-  
-  .large-nav-container {
+    position: fixed;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 20;
   }
-  
-  .large-nav-container a {
-    margin: 0.5rem 0rem;
-    padding: 0.6rem 0.75rem;
-    box-shadow: 8px 6px 16px 1px rgba(91, 91, 91, 0.64);
-    background-color: white;
-    border-radius: 25px;
+
+  .small-nav a {
+    width: 70%;
+    margin: 0.6rem 0rem;
+    padding: 0.8rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.97);
+    border-radius: 22px;
+    box-shadow: 6px 6px 16px -4px rgba(91, 91, 91, 0.54);
     transition-duration: 0.5s;
   }
-  
-  .large-nav-container a:hover {
-    margin: 0.5rem 0rem;
-    padding: 0.6rem 0.75rem;
-    box-shadow: 8px 6px 16px 1px rgba(91, 91, 91, 1);
-    border-radius: 25px;
-    scale: 112%;
+
+  .small-nav a:hover {
+    width: 70%;
+    margin: 0.6rem 0rem;
+    padding: 0.8rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 22px;
+    box-shadow: 6px 6px 16px -4px rgba(91, 91, 91, 0.94);
+    scale: 108%;
     transition-duration: 0.5s;
   }
-  
-  @media screen and (max-width: 700px) {
-    .large-nav {
-      display: none;
-    }
-  
-    .large-nav-container {
-      display: none;
-    }
-  
-    .hamburger {
-      position: absolute;
-      display: flex;
-      top: 2rem;
-      right: 2rem;
-      color: white;
-      cursor: pointer;
-      z-index: 99;
-    }
-  
-    .small-nav {
-      position: fixed;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: black;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.65);
-      z-index: 20;
-    }
-  
-    .small-nav a {
-      width: 70%;
-      margin: 0.6rem 0rem;
-      padding: 0.8rem 0rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: black;
-      background-color: rgba(255, 255, 255, 0.97);
-      border-radius: 22px;
-      box-shadow: 6px 6px 16px -4px rgba(91, 91, 91, 0.54);
-      transition-duration: 0.5s;
-    }
-  
-    .small-nav a:hover {
-      width: 70%;
-      margin: 0.6rem 0rem;
-      padding: 0.8rem 0rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: black;
-      border-radius: 22px;
-      box-shadow: 6px 6px 16px -4px rgba(91, 91, 91, 0.94);
-      scale: 108%;
-      transition-duration: 0.5s;
-    }
-  
-    .small-nav span {
-      margin-left: 0.5rem;
-    }
+
+  .small-nav span {
+    margin-left: 0.5rem;
   }
-  
+}
