@@ -8,8 +8,12 @@ const ProjectItem = ({ item }) => {
       <div className="img-container">
         <img src={item.img} alt={item.title} />
         <div className="item-overlay">
-          <a href={item.preview}>LIVE PREVIEW</a>
-          <a href={item.code}>VIEW CODE</a>
+          <a href={item.preview} target="_blank" rel="noopener noreferrer">
+            LIVE PREVIEW
+          </a>
+          <a href={item.code} target="_blank" rel="noopener noreferrer">
+            VIEW CODE
+          </a>
         </div>
       </div>
     </div>

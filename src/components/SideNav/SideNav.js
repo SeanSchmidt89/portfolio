@@ -41,6 +41,8 @@ const SideNav = () => {
           </a>
           <a
             href="https://github.com/SeanSchmidt89?tab=overview&from=2023-02-01&to=2023-02-19"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={navHandler}
           >
             <AiFillGithub size={20} />
@@ -64,7 +66,8 @@ const SideNav = () => {
           </a>
           <a
             href="https://github.com/SeanSchmidt89?tab=overview&from=2023-02-01&to=2023-02-19"
-            onClick={navHandler}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <AiFillGithub size={20} />
           </a>

@@ -14,10 +14,18 @@ const Main = () => {
         <p>Navy Veteran</p>
 
         <div className="socials">
-          <a href="https://www.linkedin.com/in/sean-schmidt-018459239/">
+          <a
+            href="https://www.linkedin.com/in/sean-schmidt-018459239/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillLinkedin size={22} />
           </a>
-          <a href="https://github.com/SeanSchmidt89">
+          <a
+            href="https://github.com/SeanSchmidt89"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillGithub size={22} />
           </a>
           <div className="name-top" />
