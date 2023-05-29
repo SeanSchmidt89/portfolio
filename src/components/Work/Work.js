@@ -4,7 +4,7 @@ import "./Work.css";
 
 const data = [
   {
-    year: 2020,
+    year: 2022,
     title: "Caring for the Cascades",
     duration: "1 Year",
     details:
